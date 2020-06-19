@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/andreagulp/mars-weather-app.git/static/css/main.d94cf6d8.chunk.css",
+    "main.js": "/andreagulp/mars-weather-app.git/static/js/main.cc87f62b.chunk.js",
+    "main.js.map": "/andreagulp/mars-weather-app.git/static/js/main.cc87f62b.chunk.js.map",
+    "runtime-main.js": "/andreagulp/mars-weather-app.git/static/js/runtime-main.16d7aa8c.js",
+    "runtime-main.js.map": "/andreagulp/mars-weather-app.git/static/js/runtime-main.16d7aa8c.js.map",
+    "static/js/2.ea3f8f7e.chunk.js": "/andreagulp/mars-weather-app.git/static/js/2.ea3f8f7e.chunk.js",
+    "static/js/2.ea3f8f7e.chunk.js.map": "/andreagulp/mars-weather-app.git/static/js/2.ea3f8f7e.chunk.js.map",
+    "index.html": "/andreagulp/mars-weather-app.git/index.html",
+    "precache-manifest.0d745322b8e588d19beeb1ce35d28146.js": "/andreagulp/mars-weather-app.git/precache-manifest.0d745322b8e588d19beeb1ce35d28146.js",
+    "service-worker.js": "/andreagulp/mars-weather-app.git/service-worker.js",
+    "static/css/main.d94cf6d8.chunk.css.map": "/andreagulp/mars-weather-app.git/static/css/main.d94cf6d8.chunk.css.map",
+    "static/js/2.ea3f8f7e.chunk.js.LICENSE.txt": "/andreagulp/mars-weather-app.git/static/js/2.ea3f8f7e.chunk.js.LICENSE.txt",
+    "static/media/drop.0c093185.svg": "/andreagulp/mars-weather-app.git/static/media/drop.0c093185.svg",
+    "static/media/wind.23d3cf4e.svg": "/andreagulp/mars-weather-app.git/static/media/wind.23d3cf4e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16d7aa8c.js",
+    "static/js/2.ea3f8f7e.chunk.js",
+    "static/css/main.d94cf6d8.chunk.css",
+    "static/js/main.cc87f62b.chunk.js"
+  ]
+}
