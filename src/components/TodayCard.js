@@ -12,7 +12,7 @@ function TodayCard({ meteo, sol }) {
 
   return (
     <Suspense fallback={<div>...loading</div>}>
-      <div className="rounded-lg py-6 pl-8 pr-32 w-full bg-white opacity-100">
+      <div className="rounded-lg py-6 pl-8 pr-32 w-full bg-white opacity-100 ">
         <div className="mb-20">
           <h2 className="font-bold text-3xl leading-none pb-1">
             {" "}
@@ -36,11 +36,11 @@ function TodayCard({ meteo, sol }) {
           </div>
           <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
             <Drop className="w-4" />
-            <div>80 l/m2</div>
+            <div>{`${Math.floor(meteo["PRE"]["av"])} Pa`}</div>
           </div>
           <div className="grid grid-cols-2 grid-flow-col gap-4">
             <Wind className="w-4" />
-            <div>80 l/m2</div>
+            <div>{`${Math.floor(meteo["HWS"]["av"])} s/m`}</div>
           </div>
         </div>
       </div>

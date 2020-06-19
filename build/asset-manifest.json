@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/andreagulp/mars-weather/static/css/main.d94cf6d8.chunk.css",
-    "main.js": "/andreagulp/mars-weather/static/js/main.cabf726b.chunk.js",
-    "main.js.map": "/andreagulp/mars-weather/static/js/main.cabf726b.chunk.js.map",
-    "runtime-main.js": "/andreagulp/mars-weather/static/js/runtime-main.23ca6fd3.js",
-    "runtime-main.js.map": "/andreagulp/mars-weather/static/js/runtime-main.23ca6fd3.js.map",
-    "static/js/2.ea3f8f7e.chunk.js": "/andreagulp/mars-weather/static/js/2.ea3f8f7e.chunk.js",
-    "static/js/2.ea3f8f7e.chunk.js.map": "/andreagulp/mars-weather/static/js/2.ea3f8f7e.chunk.js.map",
-    "index.html": "/andreagulp/mars-weather/index.html",
-    "precache-manifest.9689660db1ab23a9143586073d5840fb.js": "/andreagulp/mars-weather/precache-manifest.9689660db1ab23a9143586073d5840fb.js",
-    "service-worker.js": "/andreagulp/mars-weather/service-worker.js",
-    "static/css/main.d94cf6d8.chunk.css.map": "/andreagulp/mars-weather/static/css/main.d94cf6d8.chunk.css.map",
-    "static/js/2.ea3f8f7e.chunk.js.LICENSE.txt": "/andreagulp/mars-weather/static/js/2.ea3f8f7e.chunk.js.LICENSE.txt",
-    "static/media/drop.0c093185.svg": "/andreagulp/mars-weather/static/media/drop.0c093185.svg",
-    "static/media/wind.23d3cf4e.svg": "/andreagulp/mars-weather/static/media/wind.23d3cf4e.svg"
+    "main.css": "/mars-weather/static/css/main.d94cf6d8.chunk.css",
+    "main.js": "/mars-weather/static/js/main.9a21dd93.chunk.js",
+    "main.js.map": "/mars-weather/static/js/main.9a21dd93.chunk.js.map",
+    "runtime-main.js": "/mars-weather/static/js/runtime-main.f05fb363.js",
+    "runtime-main.js.map": "/mars-weather/static/js/runtime-main.f05fb363.js.map",
+    "static/js/2.ea3f8f7e.chunk.js": "/mars-weather/static/js/2.ea3f8f7e.chunk.js",
+    "static/js/2.ea3f8f7e.chunk.js.map": "/mars-weather/static/js/2.ea3f8f7e.chunk.js.map",
+    "index.html": "/mars-weather/index.html",
+    "precache-manifest.d7aeb74a235a4a4946d404ef3abf40f3.js": "/mars-weather/precache-manifest.d7aeb74a235a4a4946d404ef3abf40f3.js",
+    "service-worker.js": "/mars-weather/service-worker.js",
+    "static/css/main.d94cf6d8.chunk.css.map": "/mars-weather/static/css/main.d94cf6d8.chunk.css.map",
+    "static/js/2.ea3f8f7e.chunk.js.LICENSE.txt": "/mars-weather/static/js/2.ea3f8f7e.chunk.js.LICENSE.txt",
+    "static/media/drop.0c093185.svg": "/mars-weather/static/media/drop.0c093185.svg",
+    "static/media/wind.23d3cf4e.svg": "/mars-weather/static/media/wind.23d3cf4e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.23ca6fd3.js",
+    "static/js/runtime-main.f05fb363.js",
     "static/js/2.ea3f8f7e.chunk.js",
     "static/css/main.d94cf6d8.chunk.css",
-    "static/js/main.cabf726b.chunk.js"
+    "static/js/main.9a21dd93.chunk.js"
   ]
 }

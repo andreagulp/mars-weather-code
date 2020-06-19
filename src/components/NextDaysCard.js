@@ -7,18 +7,24 @@ function NextDaysCard({ meteo, sol, daysCount }) {
     <ul className="flex flex-col">
       {daysCount.map((i) => {
         return (
-          <li key={i} className="border-gray-400 flex flex-row mb-2">
-            <div className="select-none rounded-md flex flex-1 items-center p-4  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+          <li key={i} className="flex flex-row mb-2">
+            <div className="select-none rounded-md flex flex-1 items-center p-4  transition duration-500 ease-in-out shadow-sm">
               <div className="flex-1 pl-1 mr-16">
-                <div className="font-medium"> {`Mars Sol ${sol[i]}`}</div>
-                <div className="text-white text-sm">
+                <div className="font-medium font-bold">
+                  {" "}
+                  {`Mars Sol ${sol[i]}`}
+                </div>
+                <div className="text-sm">
                   {`${Math.floor(meteo[sol[i]]["AT"]["av"])} ºC`}
                 </div>
               </div>
-              <div className="text-white text-xs">
-                {`${Math.floor(meteo[sol[i]]["AT"]["mn"])} ºC / ${Math.floor(
+              <div className="text-xs">
+                <span className="text-blue-600">
+                  {`${Math.floor(meteo[sol[i]]["AT"]["mn"])} ºC /`}{" "}
+                </span>
+                <span className="text-orange-600">{`${Math.floor(
                   meteo[sol[i]]["AT"]["mx"]
-                )} ºC`}
+                )} ºC`}</span>
               </div>
             </div>
           </li>
