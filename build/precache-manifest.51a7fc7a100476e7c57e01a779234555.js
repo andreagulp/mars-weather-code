@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "abf18786d916cf6d33f87f76d5a55ce1",
+    "revision": "a2f7eeb516b63c4be3b2996320250c97",
     "url": "/mars-weather/index.html"
   },
   {
-    "revision": "1157ed1a9140a4776212",
+    "revision": "c3f2693fa32a4282c450",
     "url": "/mars-weather/static/css/main.d94cf6d8.chunk.css"
   },
   {
@@ -16,19 +16,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mars-weather/static/js/2.ea3f8f7e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1157ed1a9140a4776212",
-    "url": "/mars-weather/static/js/main.9a21dd93.chunk.js"
+    "revision": "c3f2693fa32a4282c450",
+    "url": "/mars-weather/static/js/main.356a7897.chunk.js"
   },
   {
     "revision": "b090a28c95b8ded0ad1b",
     "url": "/mars-weather/static/js/runtime-main.f05fb363.js"
   },
   {
-    "revision": "0c0931851b6269b8ea23da6424fa6b65",
-    "url": "/mars-weather/static/media/drop.0c093185.svg"
+    "revision": "75f32cd34514ada23cab94ed0847a980",
+    "url": "/mars-weather/static/media/drop2.75f32cd3.svg"
   },
   {
-    "revision": "23d3cf4edde76159f51f19ea020cc24a",
-    "url": "/mars-weather/static/media/wind.23d3cf4e.svg"
+    "revision": "f66a61543bb674732b29ffa794052b18",
+    "url": "/mars-weather/static/media/thermometer.f66a6154.svg"
+  },
+  {
+    "revision": "25c45de0909e43e261be5fa5fa7dd270",
+    "url": "/mars-weather/static/media/wind2.25c45de0.svg"
   }
 ]);

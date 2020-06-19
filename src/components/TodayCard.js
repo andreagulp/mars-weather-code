@@ -28,21 +28,23 @@ function TodayCard({ meteo, sol }) {
             {`${Math.floor(meteo["AT"]["av"])}ºC`}
           </strong>
           <b className="text-2xl block font-bold">{meteo.Season}</b>
-          <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
-            <Thermometer className="fill-current  text-blue-600 inline-block w-6" />
-            <div>{`${Math.floor(meteo["AT"]["mn"])}ºC`}</div>
-          </div>
-          <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
-            <Thermometer className="fill-current text-orange-600 inline-block w-6" />
-            <div>{`${Math.floor(meteo["AT"]["mx"])}ºC`}</div>
-          </div>
-          <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
-            <Drop className="fill-current text-blue-400 inline-block w-6" />
-            <div>{`${Math.floor(meteo["PRE"]["av"])} Pa`}</div>
-          </div>
-          <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
-            <Wind className="fill-current text-purple-600 inline-block w-6 transform rotate-90" />
-            <div>{`${Math.floor(meteo["HWS"]["av"])} s/m`}</div>
+          <div className=" max-w-sm">
+            <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
+              <Thermometer className="fill-current  text-blue-600 inline-block w-6" />
+              <div>{`${Math.floor(meteo["AT"]["mn"])}ºC`}</div>
+            </div>
+            <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
+              <Thermometer className="fill-current text-orange-600 inline-block w-6" />
+              <div>{`${Math.floor(meteo["AT"]["mx"])}ºC`}</div>
+            </div>
+            <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
+              <Drop className="fill-current text-blue-400 inline-block w-6" />
+              <div>{`${Math.floor(meteo["PRE"]["av"])} Pa`}</div>
+            </div>
+            <div className="grid grid-cols-2 grid-flow-col gap-4 my-2">
+              <Wind className="fill-current text-purple-600 inline-block w-6 transform rotate-90" />
+              <div>{`${Math.floor(meteo["HWS"]["av"])} s/m`}</div>
+            </div>
           </div>
         </div>
       </div>
